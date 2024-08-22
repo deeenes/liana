@@ -1,6 +1,9 @@
-# LIANA 0.1.14 (15.02.24)
+# LIANA 0.1.14 (06.08.24)
 
-- Orthology translation uses OMA instead of the outdated NCBI HomoloGene
+- Minor tutorial improvements.
+
+- Remove non-standard symbols from description.
+
 
 # LIANA 0.1.13 (03.11.23)
 

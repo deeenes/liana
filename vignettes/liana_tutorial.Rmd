@@ -40,6 +40,11 @@ corresponding resources.
 
 ![](ligrec_pipe.png)
 
+## LIANA's development continous as LIANA+
+
+We recommend all users to consider using [LIANA+](https://liana-py.readthedocs.io/en/latest/index.html), instead of LIANA, due to it's increased efficiency and completeness.
+We plan to eventually port all LIANA+ functionalities and backend to R, but in the meantime [LIANA+ in Python](https://liana-py.readthedocs.io/en/latest/index.html) is recommended.
+
 ## Load required packages
 ```{r load_pkgs, message=FALSE, warning=FALSE}
 library(tidyverse)
@@ -208,7 +213,7 @@ p <- chord_freq(liana_trunc,
 ```
 
 
-For more advanced visualization options, we kindly refer the user to [SCPubr](https://enblacar.github.io/SCpubr-book/21-LigandReceptorPlot.html).
+For more advanced visualization options, we kindly refer the user to [SCpubr](https://github.com/enblacar/SCpubr/) (see [`SCpubr::do_LigandReceptorPlot()`](https://enblacar.github.io/SCpubr-book-v1/21-LigandReceptorPlot.html)).
 
 
 ## Run any method of choice.
